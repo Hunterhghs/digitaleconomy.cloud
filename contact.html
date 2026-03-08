@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Digital Economy</title>
+  <meta name="description" content="Get in touch with Digital Economy. Reach out for consultations, partnerships, or support inquiries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">⚡</div>
+          <span>Digital Economy</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="btn btn-primary nav-cta">Get Started</a></li>
+        </ul>
+        <button class="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="container">
+      <div class="fade-in">
+        <span class="section-label">Contact Us</span>
+        <h1 class="section-title">Let's Start a<br>Conversation</h1>
+        <p class="section-subtitle">Have a project in mind or want to learn more? We'd love to hear from you. Reach out and we'll respond within 24 hours.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- LEFT: Info -->
+        <div class="fade-in">
+          <span class="section-label">Get in Touch</span>
+          <h2 class="section-title" style="font-size: 1.8rem;">We're here to help you<br>build what's next.</h2>
+          <p style="color: var(--text-muted); line-height: 1.8; margin-top: 16px;">
+            Whether you're exploring cloud migration, launching a blockchain project, or need a comprehensive digital strategy — our team is ready to listen, advise, and build alongside you.
+          </p>
+          <div class="contact-info-cards">
+            <div class="contact-info-card">
+              <div class="contact-info-icon">📧</div>
+              <div>
+                <h4>Email</h4>
+                <p>hello@digitaleconomy.cloud</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-icon">📍</div>
+              <div>
+                <h4>Headquarters</h4>
+                <p>Austin, Texas — United States</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-icon">🕐</div>
+              <div>
+                <h4>Response Time</h4>
+                <p>Within 24 hours, Monday – Friday</p>
+              </div>
+            </div>
+            <div class="contact-info-card">
+              <div class="contact-info-icon">🌐</div>
+              <div>
+                <h4>Global Support</h4>
+                <p>Serving clients in 30+ countries</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: Form -->
+        <div class="fade-in">
+          <form class="contact-form" id="contactForm">
+            <h3>Send Us a Message</h3>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="John" required>
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required>
+            </div>
+            <div class="form-group">
+              <label for="service">What are you interested in?</label>
+              <select id="service" name="service">
+                <option value="" disabled selected>Select a service</option>
+                <option value="cloud">Cloud Infrastructure</option>
+                <option value="blockchain">Blockchain & DeFi</option>
+                <option value="analytics">Data Analytics & AI</option>
+                <option value="security">Cybersecurity</option>
+                <option value="consulting">Strategic Consulting</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your project, goals, or any questions you have..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">Send Message →</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" style="background: var(--secondary);">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">FAQ</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Quick answers to common questions about working with us.</p>
+      </div>
+      <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
+        <div class="feature-card fade-in">
+          <h3>How long does a typical project take?</h3>
+          <p>Project timelines vary based on scope. A basic cloud migration might take 4-6 weeks, while a full blockchain protocol can take 3-6 months. We provide detailed timelines during our initial consultation.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <h3>Do you work with startups?</h3>
+          <p>Absolutely. We have a dedicated Starter plan designed for early-stage companies. We understand startup budgets and can scale our engagement as your business grows.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <h3>What technologies do you work with?</h3>
+          <p>We're cloud-agnostic (AWS, GCP, Azure), work across major blockchain networks (Ethereum, Solana, Polygon), and use modern stacks for analytics including Python, Spark, and TensorFlow.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <h3>How do you handle security?</h3>
+          <p>Security is foundational to everything we build. We follow zero-trust principles, conduct regular penetration tests, and maintain SOC 2 Type II compliance. All smart contracts undergo independent audits.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <h3>Can you work with our existing team?</h3>
+          <p>Yes. We frequently embed with client engineering teams. We can augment your existing capabilities, provide knowledge transfer, or work as a fully independent unit — whatever fits best.</p>
+        </div>
+        <div class="feature-card fade-in">
+          <h3>What's included in ongoing support?</h3>
+          <p>All plans include monitoring, incident response, and regular performance reviews. Growth and Enterprise plans include 24/7 support, proactive optimization, and dedicated account management.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-box fade-in">
+        <span class="section-label">Let's Connect</span>
+        <h2 class="section-title">Ready to Get Started?</h2>
+        <p class="section-subtitle">Book a free 30-minute consultation with one of our solution architects to discuss your project requirements.</p>
+        <div class="cta-buttons">
+          <a href="mailto:hello@digitaleconomy.cloud" class="btn btn-primary">Email Us Directly →</a>
+          <a href="services.html" class="btn btn-outline">View Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <div class="logo-icon">⚡</div>
+            <span>Digital Economy</span>
+          </a>
+          <p>Empowering businesses with next-generation cloud, blockchain, and data solutions for the modern digital economy.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Cloud Infrastructure</a></li>
+            <li><a href="services.html">Blockchain</a></li>
+            <li><a href="services.html">Data Analytics</a></li>
+            <li><a href="services.html">Cybersecurity</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="contact.html">Get in Touch</a></li>
+            <li><a href="contact.html">Support</a></li>
+            <li><a href="contact.html">Partnerships</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Digital Economy. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Twitter">𝕏</a>
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="GitHub">⌘</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
