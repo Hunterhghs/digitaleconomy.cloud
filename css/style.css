@@ -178,6 +178,12 @@ img {
   align-items: center;
   justify-content: center;
   font-size: 1.1rem;
+  color: var(--white);
+}
+
+.logo-icon svg {
+  width: 20px;
+  height: 20px;
 }
 
 .nav-links {
@@ -294,9 +300,10 @@ img {
 .hero-grid {
   position: absolute;
   inset: 0;
+  background: rgba(20, 60, 120, 0.35);
   background-image: 
-    linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+    linear-gradient(rgba(100,160,255,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(100,160,255,0.06) 1px, transparent 1px);
   background-size: 60px 60px;
   z-index: 0;
 }
@@ -442,6 +449,23 @@ img {
   justify-content: center;
   margin-bottom: 20px;
   font-size: 1.5rem;
+  color: var(--accent);
+}
+
+.feature-icon svg {
+  width: 26px;
+  height: 26px;
+}
+
+.contact-info-icon svg {
+  width: 24px;
+  height: 24px;
+}
+
+.value-icon svg {
+  width: 32px;
+  height: 32px;
+  color: var(--accent);
 }
 
 .feature-card h3 {
